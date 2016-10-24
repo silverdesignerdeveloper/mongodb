@@ -4,7 +4,7 @@ var bodyParser = require('body-parser');
 
 //CONNESSION DATABASE MONGOLAB
 var mongoose = require('mongoose');
-mongoose.connect('mongodb://', function(err){
+mongoose.connect('mongodb://user1:user1@ds063856.mlab.com:63856/eroi', function(err){
   if(err){
     throw err;
   } 
